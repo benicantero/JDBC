@@ -1,4 +1,4 @@
-package JBDC.JBDC;
+package com.iesvirgendelcarmen.teoria;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

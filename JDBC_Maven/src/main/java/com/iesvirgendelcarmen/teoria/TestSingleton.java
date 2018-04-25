@@ -1,4 +1,4 @@
-package JBDC.JBDC;
+package com.iesvirgendelcarmen.teoria;
 
 public class TestSingleton {
 
