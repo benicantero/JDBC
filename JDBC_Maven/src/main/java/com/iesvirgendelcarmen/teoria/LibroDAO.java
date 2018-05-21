@@ -9,7 +9,7 @@ public interface LibroDAO {
 	List<LibroDTO> listarTodosLibros();  //la clase que lo implemente tiene que hacer la busqueda en la BBDD
 	List<LibroDTO> listarLibrosDisponibles();
 	boolean borrarLibro(String nombreLibro, String nombreAutor);
-	boolean actualizarCategoriaLibro (String nombreCategoria);
+	boolean actualizarCategoriaLibro (LibroDTO libro, String nombreCategoria);
 	boolean insertarLibro (LibroDTO libro);
 	boolean insertarLibros (List<LibroDTO> listaLibros);
 	
